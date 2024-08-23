@@ -21,7 +21,7 @@ sudo nano /etc/zabbix/zabbix_agentd.conf
 
 파일의 아래 부분에 다음 내용을 추가합니다:
 
-```conf
+```ini
 TLSConnect=psk
 TLSAccept=psk
 TLSPSKIdentity=MyZabbixPSK
@@ -45,7 +45,7 @@ Windows 서버에서 Zabbix Agent가 설치된 상태에서 PSK 설정을 진행
 1. Zabbix Agent 설정 파일(`zabbix_agentd.conf`)을 엽니다. 보통 설치 경로는 `C:\Program Files\Zabbix Agent\` 입니다.
 2. 아래의 설정을 추가합니다:
 
-```conf
+```ini
 TLSConnect=psk
 TLSAccept=psk
 TLSPSKIdentity=MyZabbixPSK
