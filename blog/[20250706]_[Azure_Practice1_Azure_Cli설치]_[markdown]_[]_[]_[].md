@@ -36,5 +36,5 @@ az login
 
 ## ⚙ 4. 삭제 방법
 
-```시작 > 설정 > 앱 > 설치된 앱 에서 해당 클리 파일 삭제
-```C:\Users\<username>\.azure\msal_token_cache.bin 또는 C:\Users\<username>\.azure\msal_token_cache.json에서 해당 데이터를 제거합니다.
+- 시작 > 설정 > 앱 > 설치된 앱 에서 해당 클리 파일 삭제
+- C:\Users\<username>\.azure\msal_token_cache.bin 또는 C:\Users\<username>\.azure\msal_token_cache.json에서 해당 데이터를 제거합니다.
